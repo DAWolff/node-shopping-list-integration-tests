@@ -28,7 +28,7 @@ var recipeTemplate = (
 );
 
 
-var serverBase = process.env.URL || 'http://localhost:8080/';
+var serverBase = '/';
 var RECIPES_URL = serverBase + 'recipes';
 var SHOPPING_LIST_URL = serverBase + 'shopping-list';
 
